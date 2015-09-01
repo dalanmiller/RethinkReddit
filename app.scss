@@ -1,0 +1,19 @@
+.header {
+  background-image: URL("/images/background.png");
+  background-size: cover auto;
+  background-position: center;
+  max-height:125px;
+  height:125px;
+
+  img {
+    max-height:100%;
+  }
+}
+
+.links {
+
+  &.post-title{
+    font-weight:bold;
+  }
+
+}
